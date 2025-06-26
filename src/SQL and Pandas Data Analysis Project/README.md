@@ -1,15 +1,15 @@
 # Educational Platform Analytics: SQL & Pandas
 
-## 📊 Project Overview
+## Project Overview
 Analyzed user behavior patterns from an educational platform's database (250k+ records) to measure the impact of a new "Newsfeed" feature using SQL and Pandas. Delivered data-driven insights that informed product decisions.
 
-## 🚀 Key Results
+## Key Results
 - **27% increase** in early submissions after Newsfeed implementation
 - Identified **peak engagement hours** (14:00-17:00 on weekdays)
 - Reduced query execution time by **40%** through optimization
 - Automated **daily reports** used by 10+ instructors
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### SQL Expertise
 ```sql
@@ -41,7 +41,7 @@ print(f"Mean improvement: {test_group['lead_time'].mean() - control_group['lead_
 | **Visualization** | Matplotlib, Seaborn           |
 | **Optimization** | Query planning, Indexing      |
 
-# 💡 Key Insights
+# Key Insights
 
 ## Behavioral Patterns
 - **Frequent Newsfeed Checkers**: Students who checked the newsfeed **3+ times/week** submitted labs **1.2 days earlier** on average.  
