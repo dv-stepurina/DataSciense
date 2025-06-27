@@ -1,13 +1,5 @@
 # Automotive Data Analysis with Pandas
 
-## Project Overview
-Processed and analyzed 50,000+ vehicle violation records to build an optimized data pipeline, reducing processing time by 68% while improving data quality.
-
-## Key Features
-- **Automated Data Cleaning**: Handled 1,200+ missing values and duplicates
-- **Time-Series Analysis**: Extracted behavioral patterns from timestamps
-- **Performance Optimization**: Achieved 3.2x faster processing
-
 ## Technical Implementation
 
 ### Data Pipeline Architecture
@@ -28,16 +20,11 @@ graph TD
 
 ### Performance Gains
 # Before optimization
-df.iterrows() - 12.8s (48MB memory)
+df.iterrows() - 2.93 ms ± 30.9 μs 
 
 # After optimization
-df.apply() - 4.1s (17MB memory)
+df.apply() - 31.1 μs ± 131 ns	
 
-### Key Achievements
-* 65% memory reduction through dtype optimization
-* 3.2x speed improvement using vectorized operations
-* Created reusable pipeline components for future projects
-* Developed interactive dashboards for data exploration
 
 ## How to Use
 1. Clone repository

@@ -9,12 +9,6 @@ Two production-grade data analysis projects demonstrating complete analytics wor
 **Business Impact**  
 Identified 27% increase in student engagement after new feature launch, leading to feature expansion to all users.
 
-** Technical Implementation**  
-```python
-# Sample A/B Test Analysis
-effect_size = (test_group.mean() - control_group.mean()) / pooled_std
-print(f"Cohen's d: {effect_size:.2f}")  # >>> Cohen's d: 0.45
-```
 # Core Technologies
 
 | Category       | Tools                          |
@@ -26,7 +20,7 @@ print(f"Cohen's d: {effect_size:.2f}")  # >>> Cohen's d: 0.45
 
 # Key Findings
 
-- **Peak engagement**: 14:00-17:00 (Weekdays)  
+- **Peak engagement**: 13:00 - 22:00
 - **Submission speed**: 40% faster from top-engaged users  
 - **Strong correlation**: r=0.72 between views and early submissions  
 
