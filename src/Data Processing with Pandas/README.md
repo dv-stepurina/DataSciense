@@ -1,32 +1,16 @@
-# Automotive Data Analysis with Pandas
+# Pandas Data Analysis Project
 
-## Technical Implementation
+## Project Overview
+This project demonstrates comprehensive data processing and analysis skills using Pandas, covering the full data pipeline from loading and cleaning to advanced transformations and optimizations. The work showcases practical applications of Pandas for real-world data tasks.
 
-### Data Pipeline Architecture
-
-graph TD
-    A[Raw Data] --> B[Data Cleaning]
-    B --> C[Feature Engineering]
-    C --> D[Analysis]
-    D --> E[Visualization]
-
-## Core Operations
-
-| Component           | Techniques Applied                  | Tools Used          |
-|---------------------|-------------------------------------|---------------------|
-| **Data Cleaning**   | Missing value imputation, Deduplication | Pandas, NumPy      |
-| **Feature Engineering** | Temporal extraction, Text splitting | Regex, Datetime    |
-| **Optimization**    | Vectorization, Dtype downcasting    | Pandas, Categorical|
-
-### Performance Gains
-# Before optimization
-df.iterrows() - 2.93 ms ± 30.9 μs 
-
-# After optimization
-df.apply() - 31.1 μs ± 131 ns	
-
+## Technical Skills Demonstrated
+- **Data Loading/Export**: CSV, JSON file operations with custom parameters
+- **Data Cleaning**: Handling duplicates, missing values, and data validation
+- **Feature Engineering**: Time extraction, categorical binning, and custom calculations
+- **Data Analysis**: Statistical aggregations, filtering, and grouping operations
+- **Performance Optimization**: Memory reduction techniques and efficient processing methods
 
 ## How to Use
 1. Clone repository
 2. Install requirements: pip install -r requirements.txt
-3. Run Jupyter notebooks in order (ex00-ex04)
+3. Run Jupyter notebooks in order (ex00-ex05)
